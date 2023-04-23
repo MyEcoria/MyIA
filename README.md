@@ -11,3 +11,7 @@ Il faut placer les models dans le dossier models
 `g++ -o train_gpt4all train_gpt4all.cpp`
 
 `./train_gpt4all`
+
+## Train GPT4all in c++
+`g++ -o train train.cc`
+`./train --config configs/train/finetune-7b.yaml`
