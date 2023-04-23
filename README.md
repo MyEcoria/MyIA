@@ -13,5 +13,13 @@ Il faut placer les models dans le dossier models
 `./train_gpt4all`
 
 ## Train GPT4all in c++
+
+```bash
+
+   sudo apt-get install libtorch-dev
+   sudo apt-get install libtorch-cpu-dev
+
+```
+
 `g++ -o train train.cc`
 `./train --config configs/train/finetune-7b.yaml`
