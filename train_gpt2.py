@@ -40,7 +40,7 @@ def train_model(dataset):
     return model
 
 # Récupération des noms et des chemins d'accès des fichiers python
-folder_path = '/path/to/folder'
+folder_path = './data'
 file_paths = get_files(folder_path)
 
 # Lecture du contenu de chaque fichier et collecte des données
